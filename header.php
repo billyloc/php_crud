@@ -20,10 +20,10 @@ include_once 'config.php';
 </head> 
 <body>
 	<header>
-		<div class="container">
+		<!-- <div class="container"> -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="container-fluid">
-				    <a class="navbar-brand" href="#">E-Commerce</a>
+				    <a class="navbar-brand" href="index.php">E-Commerce</a>
 				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			      		<span class="navbar-toggler-icon"></span>
 				    </button>
@@ -31,11 +31,10 @@ include_once 'config.php';
 				      	<div class="navbar-nav">
 				        	<a class="nav-link active" aria-current="page" href="#">Home</a>
 					        <a class="nav-link" href="add-new.php">Add New</a>
-					        <a class="nav-link" href="#">Edit</a>
-					        <a class="nav-link" href="#">Delete</a>
+					        <a class="nav-link" href="edit.php">Edit</a>
 					    </div>
 				    </div>
 			  	</div>		  	
 			</nav>	
-		</div>		
+		<!-- </div>		 -->
 	</header>

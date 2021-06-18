@@ -42,7 +42,40 @@ table {
 	border-spacing: 0;
 }
 
+header {
+	background: #212529!important;
+}
+
 
 .products {
 	margin-top: 30px;
+}
+
+
+
+
+/*Footer*/
+
+footer {
+	background: #212529!important;
+	color: white;
+	height: 40px;
+	bottom: 0;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.footer-items {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;\
+	bottom: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
 }

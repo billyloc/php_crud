@@ -13,7 +13,7 @@ if ($conn -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
   exit();
 } else {
-	echo 'Connection Successfull';
+	// echo 'Connection Successfull';
 }
 
 
@@ -30,6 +30,7 @@ if ($conn -> connect_errno) {
 // } catch(PDOException $e) {
 //   echo "Connection failed: " . $e->getMessage();
 // }
+
 
 
 
