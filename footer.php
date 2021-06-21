@@ -9,13 +9,13 @@
 				<div>
 					<ul>
 						<li>
-							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.linkedin.com/in/williambird13/"><i class="fab fa-linkedin-in"></i></a>
 						</li>
 						<li>
-							<a href="#"><i class="fab fa-github"></i></a>
+							<a href="https://github.com/billyloc"><i class="fab fa-github"></i></a>
 						</li>
 						<li>
-							<a href="#"><i class="fas fa-exclamation-circle"></i></a>
+							<a href="https://billyloc.github.io/"><i class="fas fa-exclamation-circle"></i></a>
 						</li>												
 					</ul>
 				</div>
