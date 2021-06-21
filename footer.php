@@ -1,18 +1,22 @@
 
 
-<footer>
+<footer class="footer">
 	<div class="container">
 		<div class="row">
 			<div class="footer-items">
-				<div>&copy;Copyright 2021</div>
+				<div>&copy; 2021</div>
 				<div>Made by William (Billy) Bird</div>
 				<div>
 					<ul>
 						<li>
-							<a href="#">Linkedin</a>
-							<a href="#">GitHub</a>
-							<a href="#">Website</a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
 						</li>
+						<li>
+							<a href="#"><i class="fab fa-github"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-exclamation-circle"></i></a>
+						</li>												
 					</ul>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 <?php 
 
 include_once 'config.php';
+include_once 'nav.php';
 
 $name = $_POST['pname'];
 $desc = $_POST['description'];
@@ -20,6 +21,7 @@ $sql = "INSERT into products (`productName`,`productDescription`,`productImage`,
 
 if (mysqli_query($conn, $sql)) {
   echo "New record created successfully";
+  header('Location: index.php');
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

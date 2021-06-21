@@ -43,11 +43,14 @@ $id = $_POST['id'];
 			<div class="form-group">
 				<label for="pprice">Product Price:</label>
 				<input type="num" value="'. $row['productPrice'] .'" name="pprice" placeholder="'. $row['productPrice'] .'">
-				<input type="hidden" value="'. $row['productId'] .'" name="id">
+				<input type="hidden" id="prod_id" value="'. $row['productId'] .'" name="id">
 			</div> 	
 			<div class="form-group">
 				<button type="submit" class="update-data">Update</button>	
-				<button type="submit" class="delete-data" name="delete">Delete</button>	
+				<button type="button" id="delete-data" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Delete
+</button>
+			</div>
 
 		';
 	}

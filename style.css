@@ -9,7 +9,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ /*HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,6 +46,163 @@ header {
 	background: #212529!important;
 }
 
+/*front page*/
+
+.hero img {
+	width: 100%;
+}
+
+.hero-message {
+	width: 500px;
+	position: absolute;
+  top: 30%;
+  left: 30%;
+  background-color: white;
+  opacity: .9;
+  height: 250px;
+  text-align: center;
+}
+
+.hero-message h1 {
+	font-size: 26px;
+	margin-top: 20px;
+}
+
+.hero-message p {
+	font-size: 18px;
+}
+
+.hero-message button {
+	width: 80%;
+	padding: 10px;
+	border-radius: 7px;
+	background-color: #EFEFEF;
+	color: black;
+	margin-top: 40px;
+}
+
+.hero-message button:hover {
+	background-color: black;
+	color: white;
+}
+
+.item {
+	margin-top: 20px;
+}
+
+
+/*Add New*/
+
+.add-new-form h2 {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.insert-container {
+	margin-top: 40px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+/*edit.php*/
+
+.edit-form h2 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.edit-box {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px!important;
+}
+
+
+
+.get-products {
+	margin-top: 40px;
+}
+
+#product_list {
+    border-radius: 7px;
+    width: 200px;
+    padding: 5px;
+    color: grey;
+}
+
+.edit-data {
+	width: 100px;
+	border-radius: 7px;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.edit-data:hover {
+	background-color: black;
+	color: white;
+}
+
+.edit-list label {
+	display: block;
+}
+
+.edit-list input {
+	width: 250px;
+	border-radius: 7px;
+	padding: 5px;
+}
+
+.edit-list {
+	margin-top: 30px;
+}
+
+.edit-list .form-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.edit-list .update-data {
+		width: 100px;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.edit-list .update-data:hover {
+	background-color: black;
+	color: white;
+}
+
+.edit-list #delete-data {
+		width: 100px;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;	
+    background-color: #EFEFEF;
+    color: black;;
+    border-color: black;
+}
+
+.edit-list #delete-data:hover {
+	background-color: red;
+	color: white;
+}
+
+
+
 
 .products {
 	margin-top: 30px;
@@ -69,13 +226,23 @@ footer {
 	height: 40px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;\
+	align-items: center;
 	bottom: 0;
+}
+
+.footer ul {
+	display: flex;
+}
+
+.footer ul li {
+	margin: 0 5px 0 5px;
+}
+
+.footer ul li i {
+	color: white;
 }
 
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: lightblue;
-  }
+
 }

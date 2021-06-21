@@ -1,28 +1,23 @@
 <?php 
-include 'header.php';
+include_once 'header.php';
+include_once 'nav.php';
  ?>
 
  	<section class="wallpaper">
  		<div class="hero">
- 			<div class="container">
- 				<div class="row">
- 					<img src="images/wallpaper.jpg" alt="">
- 				</div>
- 			</div>
+			<img src="images/wallpaper.jpg" alt="wallpaper">
+			<div class="hero-message">
+				<h1>Store Name</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, debitis provident nihil ullam dolore numquam possimus reiciendis quisquam dolores maxime nemo eum ducimus blanditiis consectetur molestiae culpa hic dolor non!</p>
+				<button>CTA</button>
+			</div>
  		</div>
  	</section>
 
 	<section class="products">
 		<div class="container">
-				<div class="row">
+			<div class="row">
 				<?php 
-
-
-				// $data = $pdo->query("SELECT * FROM products")->fetchAll();
-				// // and somewhere later:
-				// foreach ($data as $row) {
-				//     echo $row['name']."<br />\n";
-				// }
 
 				$sql = 'SELECT * FROM products';
 
@@ -57,19 +52,3 @@ include 'header.php';
 include 'footer.php';
  ?>
 
-
-<script>
-// $(document).ready(function() {
-// 	var open = 'no';
-// 	$('.navbar-toggler-icon').click(function() {
-// 		if(open == 'no') {
-// 			$('.collapse:not(.show)').css('display', 'block');
-// 			open = 'yes';
-// 		} else {
-// 			$('.collapse:not(.show)').css('display', 'none');
-// 			open = 'no';
-// 		}
-// 	})
-
-// })
-</script>
